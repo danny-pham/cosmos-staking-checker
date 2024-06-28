@@ -30,5 +30,5 @@ async function getTotalStakedAtom() {
     }
 
     document.getElementById('loading').classList.add('hidden');
-    document.getElementById('result').innerText = `Tổng số ATOM đang stake: ${totalStakedAtom}`;
+    document.getElementById('result').innerText = `Tổng số walet: ${addresses.length -1}, tổng số ATOM đang stake: ${totalStakedAtom}`;
 }
